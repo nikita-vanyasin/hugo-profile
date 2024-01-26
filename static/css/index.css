@@ -75,6 +75,11 @@ header .navbar.animate {
     line-height: 2rem;
     max-width: 100%;
 }
+
+#hero .content ul {
+    margin-bottom: 0;
+}
+
 #hero .content.animate {
     animation: fade-left 1s ease-out;
 }
@@ -134,10 +139,11 @@ header .navbar.animate {
     color: var(--primary-color) !important;
     line-height: 0%;
     border-radius: 50%;
-    margin-top: 50px;
+    margin-top: 55px;
     padding: 0.7rem;
     border: 1px solid var(--primary-color);
     transition: none;
+    box-shadow: 0 0 1px 0px white inset, 0 0 1px 0px white;
 }
 
 #hero a.btn.social-icon img {
@@ -155,6 +161,7 @@ header .navbar.animate {
     color: var(--text-color) !important;
     border-radius: .75rem;
     transition: none;
+    box-shadow: 0 0 1px 0px white inset, 0 0 1px 0px white;
 }
 
 #hero a.btn:focus {

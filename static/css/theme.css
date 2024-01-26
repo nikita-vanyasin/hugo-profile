@@ -12,6 +12,15 @@
     --text-secondary-color: var(--text-secondary-color-dark) !important;
     --primary-color: var(--primary-color-dark);
     --secondary-color: var(--secondary-color-dark);
+    --link-color: var(--link-color-dark) !important;
+}
+
+a, a:visited {
+    color: var(--link-color) !important;
+}
+
+a:hover, a:active {
+    color: #509450 !important;
 }
 
 .text-secondary {
@@ -23,7 +32,8 @@
 }
 
 #theme-toggle svg {
-    height: 18px;
+    margin-bottom: 4px;
+    height: 22px;
 }
 
 button#theme-toggle {
